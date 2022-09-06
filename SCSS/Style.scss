@@ -245,3 +245,21 @@ margin: 300px 0 0 865px ;
 		font-size: 14px;
 	}
 }
+.portfolio{
+
+    &__menu{
+
+    }
+    &__photoblock{
+        border: #ada074 dotted 1px;
+width: 1130px;
+height: 1155px;
+        &__photo{
+            width: 565px;
+            height: 365px;
+            border: #ada074 dotted 1px;
+            background-color: eaeaea;
+        }
+    }
+
+}

@@ -258,3 +258,15 @@ body {
   color: black;
   font-size: 14px;
 }
+
+.portfolio__photoblock {
+  border: #ada074 dotted 1px;
+  width: 1130px;
+  height: 1155px;
+}
+.portfolio__photoblock__photo {
+  width: 565px;
+  height: 365px;
+  border: #ada074 dotted 1px;
+  background-color: eaeaea;
+}
