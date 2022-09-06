@@ -126,27 +126,33 @@ body {
 			height: 2px;
             top: 585px;
 			background-color: rgb(255, 255, 255);
-            margin: 0 0 0 -210px;
-
-
+            margin: 0 0 0 -217px;
 		}
 	}
-
-
-
 	&__button {
 height: 47px;
 width: 182px;
-margin: 100px 0 0 873px ;
+margin: 300px 0 0 865px ;
 	}
 }
+.menu {
+    margin: 15px 0 15px 40%;
+    text-transform: uppercase;
+    font-size: 15px;
+    // border: black 1px solid;
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    :first-child {color: #ada074;}
 
+
+}
 .about {
 
 	//весь блок
 	&__body {
 		width: 1900px;
-		margin: 0px auto;
+		margin: 150px auto;
 	}
 
 	//Блок ABOUT с текстом
