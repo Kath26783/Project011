@@ -143,7 +143,8 @@ body {
 .header {
   width: 1900px;
   height: 1080px;
-  background: url(../img/Logo_binary.png) no-repeat 50% 160px scroll, url("../img/BG-Header.png") center top no-repeat scroll;
+  background: url("../img/Logo_binary.png") no-repeat 50% 160px scroll, url("../img/BG-Header.png") top center no-repeat scroll;
+  margin: 0 auto;
 }
 .header__title {
   text-align: center;
@@ -162,64 +163,16 @@ body {
 .header__title:after {
   content: "";
   position: absolute;
-  bottom: 0;
-  width: 92px;
-  height: 4px;
-  left: 50%;
-  background-color: black;
-  margin: 0 0 0 -50px;
-}
-.header__button {
-  margin: 100px 50%;
-}
-
-.Clear__smart__attractive_design__for_your_app__ {
-  font-size: 33.916px;
-  font-family: "Lato";
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  line-height: 1.176;
-  text-align: center;
-  position: absolute;
-  left: 570px;
-  top: 447px;
-  width: 754px;
-  height: 70px;
-  z-index: 116;
-}
-
-.READ_MORE {
-  font-size: 11.239px;
-  font-family: "Lato";
-  color: rgb(255, 255, 255);
-  text-align: center;
-  position: absolute;
-  left: 911px;
-  top: 811px;
-  width: 100px;
-  height: 13px;
-}
-
-.HOME_____________ABOUT_US_____________PORTFOLIO {
-  font-size: 15px;
-  font-family: "Lato";
-  color: rgb(173, 160, 116);
-  font-weight: bold;
-  text-align: left;
-  position: absolute;
-  left: 764px;
-  top: 1102px;
-  width: 422px;
-  height: 12px;
-}
-
-.Line {
-  background-image: url("images/Line.png");
-  position: absolute;
-  left: 904px;
-  top: 566px;
   width: 105px;
   height: 2px;
+  top: 585px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 0 0 -210px;
+}
+.header__button {
+  height: 47px;
+  width: 182px;
+  margin: 100px 0 0 873px;
 }
 
 .about__body {
